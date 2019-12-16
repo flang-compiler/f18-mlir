@@ -86,6 +86,8 @@ if (NOT LLVM_INSTALL_TOOLCHAIN_ONLY)
     COMPONENT mlir-headers
     FILES_MATCHING
     PATTERN "*.h"
+    PATTERN "*.td"
+    PATTERN "*.def"
     PATTERN "*.inc"
     PATTERN "LICENSE.TXT"
     )
@@ -95,6 +97,8 @@ if (NOT LLVM_INSTALL_TOOLCHAIN_ONLY)
     COMPONENT mlir-headers
     FILES_MATCHING
     PATTERN "*.h"
+    PATTERN "*.td"
+    PATTERN "*.def"
     PATTERN "*.gen"
     PATTERN "*.inc"
     PATTERN "CMakeFiles" EXCLUDE
